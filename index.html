@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="new1.css" />
+  <script>
+    // تعليمة جافا سكريبت لعرض رسالة الترجمة
+    window.onload = function() {
+        let translate = confirm("هل تريد ترجمة الصفحة إلى اللغة الإنجليزية؟");
+        if (translate) {
+            // هنا يمكنك إضافة الكود الذي يقوم بالترجمة
+            alert("سنتم الترجمة إلى النسخة الإنجليزية");
+            // على سبيل المثال، يمكنك تغيير لغة المحتوى أو تحويل المستخدم لصفحة مترجمة
+            // window.location.href = "page_in_english.html";
+        } else {
+            alert("تم الإبقاء على اللغة العربية.");
+        }
+    }
+</script>
+</head>
+<body>
+  <ul class="nav justify-content-end bg-light">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about me.html">About me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="project.html">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+  <dive class="container">
+    <dive class="body">
+      <dive class="row">
+        <dive class="col-md-5">
+    
+          <div class="header__text-boxrow">
+            <div class="header__text">
+              <dive class="text-center">
+              <h2 class="heading-primary">
+               <b><span> My Name  </span></b> 
+              </h2>
+            
+             <h4><p style="color: #e3e5f1;"> Web developer </p></h4> 
+              <h5><p style="color: #e3e5f1;">- Syria -</p></h5>
+              </dive>
+            </div>
+          </div>
+        </dive>
+      <div class="col-md-4">
+        
+          <img src="images/new11.jpg" alt="img" height="300" width="320" class="rounded-circle" id="q">
+        </div>
+      </div>
+      </dive>
+    </dive>
+  </dive>
+</body>
+</html>
